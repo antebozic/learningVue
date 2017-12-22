@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <todo-list></todo-list>
+    <todo-list v-bind:todos="todos"></todo-list>
   </div>
 </template>
 <script>
